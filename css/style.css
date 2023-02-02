@@ -1,13 +1,30 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #F0E9D2;
+    background-color: #DFDCE3;
     color: #181B31
 }
 
-header {
-    background-color: #e7d9b0;
-    padding: 10px;
-    text-align: left;
-    font-size: 16px;
-    color:  #181B31 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #465C8B;
 }
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: yellow;
+}
+
